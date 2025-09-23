@@ -46,3 +46,48 @@ header h1{
     text-align: center;
     
 }
+
+.mole.active {
+    background-color: green !important;
+    border: 2px solid black;
+}
+
+.win {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.771);
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 64px;
+        font-weight: 800;
+        color: white;
+        padding-top: 250px;
+}
+
+.win.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 250px;
+    background-color: rgba(0, 0, 0, 0.868);
+}
+
+.win_btn button{
+    background-color: burlywood;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
