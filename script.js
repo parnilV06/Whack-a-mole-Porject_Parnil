@@ -17,7 +17,7 @@ function activateMole(){
         if (mole) mole.classList.add('active');
 }
 
-setInterval(activateMole, 1000);
+setInterval(activateMole, 500);
 let valuescore = 0
 moles.forEach(mole => {
     mole.addEventListener('click', () => {
